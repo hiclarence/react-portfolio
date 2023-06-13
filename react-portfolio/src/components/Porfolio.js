@@ -24,6 +24,14 @@ export default function Portfolio() {
             <h4>Pot it like it's hot</h4>
             <a href="https://github.com/stbuiemory/2kPerDay"><img src="assets/Pot It Like It's Hot .png" alt="class project 2"/></a>
           </div>
+          <div className = "project">
+            <h4>PWA Text Editor</h4>
+            <a href="https://stbuiemory.github.io/FoodWillBeerUsApart/page_searchresults.html"><img src="assets/food.png" alt="class project 1"/></a>
+          </div>
+          <div className = "project">
+            <h4>NoSQL API</h4>
+            <a href="https://github.com/stbuiemory/2kPerDay"><img src="assets/Pot It Like It's Hot .png" alt="class project 2"/></a>
+          </div>
       </section>
     </div>
   );
