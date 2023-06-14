@@ -1,4 +1,5 @@
 import React from 'react';
+import propic from '../components/clarence.png'
 
 export default function AboutMe() {
   // All functional components must have a return method that contains JSX.
@@ -7,7 +8,7 @@ export default function AboutMe() {
     
     <div className="container">
       <section className="about">
-        <img src=".components/clarence.png" alt="Clarence profile" width="200" height="200"/>
+        <img src={propic} alt="Clarence profile" width="200" height="200"/>
         <section className = "intro">
           <div className = "headline"><h1>Hey, I'm Clarence</h1> 
           </div>
