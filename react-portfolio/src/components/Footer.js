@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
 
   return (
-    <div classname="container">
+    <div>
       <footer>
         <section className="contact" id = "contact">
         <a href = "https://www.linkedin.com/in/changclarence/" class = "linkedin"><i class="fa-brands fa-linkedin"></i></a>

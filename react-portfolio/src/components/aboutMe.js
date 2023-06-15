@@ -1,5 +1,5 @@
 import React from 'react';
-import propic from '../components/clarence.png'
+import propic from '../images/clarence.png'
 
 export default function AboutMe() {
   // All functional components must have a return method that contains JSX.
