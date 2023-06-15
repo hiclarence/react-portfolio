@@ -14,7 +14,7 @@ export default function MainComponent() {
       if (currentPage === 'Portfolio') {
         return <Portfolio />;
       }
-      if (currentPage === 'Contact') {
+      if (currentPage === 'Contact Me') {
         return <Contact />;
       }
       if (currentPage === 'Resume') {
