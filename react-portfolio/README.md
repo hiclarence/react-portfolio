@@ -95,6 +95,7 @@ THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, an
 WHEN I click on a navigation title
 THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
 
+//DONE
 WHEN I load the portfolio the first time
 THEN the About Me title and section are selected by default
 
@@ -121,6 +122,6 @@ THEN I receive a notification if I have entered an invalid email address
 WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 
-
+//DONE
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 

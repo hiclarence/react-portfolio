@@ -1,13 +1,13 @@
 import React from 'react';
 
-export default function Project() {
-  // All functional components must have a return method that contains JSX.
-  // We return all the JSX inside a parent element with a className of "container".
+export default function Project(props) {
+  
   return (
     
     <div className="container">
       <section className="project_component">
-[]
+        <h4></h4>
+        <a href=
       </section>
     </div>
   );

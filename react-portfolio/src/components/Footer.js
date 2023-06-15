@@ -1,16 +1,25 @@
 import React from 'react';
+import linkedin from "../images/linkedin.png"
+import github from "../images/github.png"
+import stack from "../images/stack.png"
 
 export default function Footer() {
 
   return (
-    <div>
-      <footer>
+    <footer>
+      
         <section className="contact" id = "contact">
-          <a href = "https://www.linkedin.com/in/changclarence/" className = "linkedin"><i className="fa-brands fa-linkedin"></i></a>
-          <a href = "https://github.com/hiclarence" className = "github"><i className="fa-brands fa-github"></i></a>
-          <a href = "https://stackexchange.com/users/28815545/clarence" className = "stackOverflow"><i className="fa-brands fa-stack-overflow"></i></a>
+        <a href = "https://www.linkedin.com/in/changclarence/">
+          <img src={linkedin} alt="LinkedIn"/>
+        </a>
+        <a href = "https://github.com/hiclarence">
+          <img src={github} alt="LinkedIn"/>
+        </a>
+        <a href = "https://stackexchange.com/users/28815545/clarence">
+          <img src={stack} alt="Stack"/>
+        </a>
         </section>
-      </footer>
-    </div>
+      
+    </footer>
   );
 }
