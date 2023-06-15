@@ -1,8 +1,11 @@
 import React from 'react';
 import food from "../images/food.png";
 import horiseon from "../images/horiseon.png";
+import network from "../images/socialNetwork.png"
 import pot from "../images/potIt.png";
-import prework from "../images/prework.png";
+import password from "../images/password.png";
+import scheduler from "../images/scheduler.png";
+import Card from "./Project"
 
 export default function Portfolio() {
   // All functional components must have a return method that contains JSX.
@@ -11,30 +14,66 @@ export default function Portfolio() {
     <div className='container'>
       <section className = "first">
         <div className = "firstImage">
-          <h4>Prework</h4>
-          <a href="https://hiclarence.github.io/prework-study-guide/"><img src={prework} alt="prework module"/></a>
+          <Card 
+          cardTitle = "Prework"
+          imageURL = {horiseon}
+          imageAlt= "HTML and CSS work"
+          cardDesc = "A marketing page created by HTML and CSS"
+          githubLink = "https://hiclarence.github.io/prework-study-guide/"
+          demoLink = "https://hiclarence.github.io/prework-study-guide/"
+          />
         </div>
-      </section>
-      <section className="work">
           <div className = "project">
-            <h4>Horiseon Marketing</h4>
-            <a href="https://hiclarence.github.io/module-1-challenge/"><img src={horiseon} alt="challenge 1 module"/></a>
+            <Card
+            cardTitle = "Social Network API"
+            imageURL = {network}
+            imageAlt= "API routes"
+            cardDesc = "Leveraging Mongo DB to create a social network API"
+            githubLink = "https://github.com/hiclarence/social_network_api"
+            demoLink = "https://www.loom.com/share/484987bfa99741cfbf26c7665c1d96a7"
+            />
           </div>
           <div className = "project">
-            <h4>Food will Beer Us Apart</h4>
-            <a href="https://stbuiemory.github.io/FoodWillBeerUsApart/page_searchresults.html"><img src={food} alt="class project 1"/></a>
+            <Card
+            cardTitle = "Food Will Beer Us Apart"
+            imageURL = {food}
+            imageAlt= "Food Will Beer Us Apart"
+            cardDesc = "Using 3rd party API's to create food and beer pairings"
+            githubLink = "https://github.com/stbuiemory/FoodWillBeerUsApart"
+            demoLink = "https://stbuiemory.github.io/FoodWillBeerUsApart/page_searchresults.html"
+            />
+          </div>
+          </section>
+          <section className="work">          
+          <div className = "project">
+          <Card
+            cardTitle = "Pot it like it's hot"
+            imageURL = {pot}
+            imageAlt= "Pot it like it's hot"
+            cardDesc = "A full stack application to curate plants"
+            githubLink = "https://github.com/stbuiemory/2kPerDay"
+            demoLink = "https://pilih.herokuapp.com/"
+            />
           </div>
           <div className = "project">
-            <h4>Pot it like it's hot</h4>
-            <a href="https://github.com/stbuiemory/2kPerDay"><img src={pot} alt="class project 2"/></a>
+          <Card
+            cardTitle = "Password Checker"
+            imageURL = {password}
+            imageAlt= "Password Checker"
+            cardDesc = "A full stack application to curate plants"
+            githubLink = "https://github.com/hiclarence/password_checker"
+            demoLink = "https://hiclarence.github.io/password-checker/"
+            />
           </div>
           <div className = "project">
-            <h4>PWA Text Editor</h4>
-            <a href="https://stbuiemory.github.io/FoodWillBeerUsApart/page_searchresults.html"><img src={food} alt="class project 1"/></a>
-          </div>
-          <div className = "project">
-            <h4>NoSQL API</h4>
-            <a href="https://github.com/stbuiemory/2kPerDay"><img src={food} alt="class project 2"/></a>
+          <Card
+            cardTitle = "Work Day Scheduler"
+            imageURL = {scheduler}
+            imageAlt= "scheduler"
+            cardDesc = "A full stack application to curate plants"
+            githubLink = "https://github.com/hiclarence/work-day-scheduler"
+            demoLink = "https://hiclarence.github.io/work-day-scheduler/"
+            /> 
           </div>
       </section>
     </div>
