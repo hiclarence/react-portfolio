@@ -128,6 +128,14 @@ h4 {
   filter: brightness(50%);
 }
 
+.cardDescription {
+  padding: 10px 0px;
+}
+
+.cardDescription a {
+  padding: 20px 0px;
+}
+
 .firstImage img {
   box-shadow: 5px 3px rgb(174, 174, 174);
   border-radius: 15px;
@@ -210,6 +218,7 @@ button {
 
 footer {
   /* position: absolute; */
+  
   bottom: 0;
   width: 100%;
   background-color: white;

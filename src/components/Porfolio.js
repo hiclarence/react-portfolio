@@ -60,7 +60,7 @@ export default function Portfolio() {
             cardTitle = "Password Checker"
             imageURL = {password}
             imageAlt= "Password Checker"
-            cardDesc = "A full stack application to curate plants"
+            cardDesc = "A password generator for special parameters"
             githubLink = "https://github.com/hiclarence/password_checker"
             demoLink = "https://hiclarence.github.io/password-checker/"
             />
@@ -70,7 +70,7 @@ export default function Portfolio() {
             cardTitle = "Work Day Scheduler"
             imageURL = {scheduler}
             imageAlt= "scheduler"
-            cardDesc = "A full stack application to curate plants"
+            cardDesc = "A work-day calendar which visualizes current hour"
             githubLink = "https://github.com/hiclarence/work-day-scheduler"
             demoLink = "https://hiclarence.github.io/work-day-scheduler/"
             /> 

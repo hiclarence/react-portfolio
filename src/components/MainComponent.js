@@ -8,7 +8,7 @@ import Resume from './Resume';
 
 export default function MainComponent() {
 
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('AboutMe');
 
     // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
     const renderPage = () => {
@@ -21,7 +21,9 @@ export default function MainComponent() {
       if (currentPage === 'Resume') {
         return <Resume />;
       }
-      return <AboutMe />;
+      if (currentPage === 'AboutMe') {
+        return <AboutMe />;
+      };
     };
   
     const handlePageChange = (page) => setCurrentPage(page);
